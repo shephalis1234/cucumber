@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 400400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Free form",
+        "description": "",
+        "id": "practice-automation-form;free-form",
+        "after": [
+          {
+            "result": {
+              "duration": 117400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6198951300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Page",
+            "match": {
+              "location": "stepdefinition.user_is_already_on_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 827056100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title form page is free form",
+            "match": {
+              "location": "stepdefinition.title_form_page_is_free_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 759199900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 13
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinition.user_enters_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6116911700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on simple button",
+            "match": {
+              "location": "stepdefinition.user_clicks_on_simple_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 734955700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepdefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "practice automation form",
+    "description": "",
+    "id": "practice-automation-form",
+    "keyword": "Feature",
+    "uri": "C:/HaudAPI/cucumberframework/src/main/java/feature/com/contact.feature"
+  }
+]

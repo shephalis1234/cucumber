@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.637593">
+    <testcase classname="practice automation form" name="Free form" time="14.637593">
+        <system-out>
+            <![CDATA[Given user is already on Page...............................................passed
+When title form page is free form...........................................passed
+Then user enters "<username>" and "<password>"..............................passed
+Then user clicks on simple button...........................................passed
+Then Close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
